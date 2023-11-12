@@ -2,5 +2,14 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
-
+    <bean id="utilisateur" class="com.Spring.Model.Utilisateur" scope="singleton">
+        <property name="id" value="1"/>
+        <property name="nom" value="John Doe"/>
+        <property name="avatar" value="user.jpg"/>
+    </bean>
+    <bean id="objectif" class="com.Spring.Model.Objectif" scope="prototype">
+        <property name="id" value="1"/>
+        <property name="description" value="Learn Spring MVC"/>
+        <property name="etatAchievement" value="false"/>
+    </bean>
 </beans>
