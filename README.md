@@ -1,6 +1,4 @@
 
-Certainly! Here's a README template without code:
-
 ProgressTracker Application
 Project Overview
 "ProgressTracker" is an application developed by Geneiryodan Corporate to modernize the management of progress and goals. The application allows users to efficiently track their progress and goals.
